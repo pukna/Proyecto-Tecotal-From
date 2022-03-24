@@ -9,13 +9,13 @@ const HomePage = () => {
   return (
     <>
       <h1 className='page-title'>
-        <a href='https://es.reactjs.org/'>React</a> boilerplate
-        con <a href='https://ant.design/docs/react/introduce'>Antd</a>
+        <a href='https://es.reactjs.org/'>Sistema Contable Tectotal</a>
+
       </h1>
 
       <p>Este es el contenido de la página principal.</p>
 
-      <h2>Lista de Artículos</h2>
+      <h2>Menu home</h2>
       {
         articles.isLoading
           ? 'Cargando...'
